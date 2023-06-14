@@ -17,7 +17,7 @@ function login() {
         data: JSON.stringify(user),
         success: function (response) {
             console.log('登录成功:', response);
-            alert("登录成功，请检查用户名和密码是否正确");
+            alert("登录成功");
             // 跳转到首页
             window.location.href = 'index.html';
         },
