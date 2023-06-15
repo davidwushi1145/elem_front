@@ -10,7 +10,7 @@ window.onload = function(){
 	
 	for(let i=0;i<showBtnArr.length;i++){
 		showBtnArr[i].onclick = function(){
-			if(detailetBoxArr[i].style.display=='none'){
+			if(detailetBoxArr[i].style.display==='none'){
 				detailetBoxArr[i].style.display='block';
 			}else{
 				detailetBoxArr[i].style.display='none';
